@@ -1,18 +1,9 @@
-// criar um aplicativo de frases motivacionais
+// Função é um liquidificador
 
-// declaration - declaração da função
-// function statement
-function createPhrases () {
-console.log('Estudar é muito bom')
-console.log('Paciência e persistência')
-console.log('Revisão é mãe de aprendizado')
+function fazerSuco(fruta1, fruta2) {
+    return 'O Marcelo precisa tomar suco de: ' + fruta1 + fruta2
 }
 
-// executar a função
-// rodar, chamar, invocar
-// execute, run, call, invoke
-createPhrases()
+const copoplastico = fazerSuco('banana ', 'e maçã')
 
-
-console.log('fim do programa')
-
+console.log(copoplastico)

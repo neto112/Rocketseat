@@ -1,8 +1,8 @@
-/*
-    Type conversion (typecasting) vs Type coersion
+// Manipulando Strings e Números
 
-    * Alteração de um tipo de dado para outro tipo
 
-*/
-
-console.log(Number('9') + 5)
+// Contar quantos caracteres tem uma palavra e quantos digitos tem um número
+let caracteres = "gol"
+console.log(caracteres.length)
+let number = 1234
+console.log(String(number).length)

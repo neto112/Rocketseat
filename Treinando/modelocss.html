@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+        <style>
+      .botao-resultado {
+        background-color: blue;
+        color: white;
+        border-radius: 16px;
+        padding: 10px;
+        font-weight: bold;
+        width: 100px;
+        border: none;
+        cursor: pointer;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .botao-resultado:hover {
+        background-color: orange;
+      }
+
+      .botao-teste {
+        width: 200px;
+        background: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      Digite a base: <input id="base" /> <br />
+      <br />
+      Digite o expoente: <input id="expoente" /> <br />
+
+      <br />
+
+      <button type="button" class="botao-resultado" onclick="power()">
+        Calcular
+      </button>
+
+      <br /><br />
+
+      <button type="button" class="botao-teste">Teste</button>
+
+      <span id="resultado"></span>
+    </div>
+
+    <script>
+      var power = function () {
+        const base = document.getElementById("base").value;
+        const exp = document.getElementById("expoente").value;
+
+        var pow = 1;
+        for (var i = 0; i < exp; i++) {
+          pow = pow * base;
+        }
+
+        document.getElementById("resultado").innerHTML = pow;
+
+        return pow;
+      };
+    </script>
+  </body>
+</html>

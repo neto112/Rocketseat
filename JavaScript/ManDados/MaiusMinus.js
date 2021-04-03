@@ -1,8 +1,6 @@
-/*
-    Type conversion (typecasting) vs Type coersion
+// Manipulando Strings e Números
 
-    * Alteração de um tipo de dado para outro tipo
 
-*/
-
-console.log(Number('9') + 5)
+// Transforme letras minúsculas em maiúsculas. Faça o contrário disso também
+let word = "Programar é muito bacana!"
+console.log(word.toLowerCase().toUpperCase())

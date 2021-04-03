@@ -1,0 +1,2 @@
+console.log('Juba, consegui executar aqui vsfcode para html no Chrome, meu que demonho, estava assim console.log();("blablabla"), sou muito burro né... então vamos ver o jogo de Liga dos Campeões mais tarde? ')
+console.log('Daí eu tirei (); e agora foi')

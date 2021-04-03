@@ -1,7 +1,15 @@
-// function hoistings
+// callback function
 
-sayMyName()
+function sayMyName(name) {
+    console.log('antes de executar a funcao callback')
 
-function sayMyName() {
-    console.log('Neto')
+    name()
+
+    console.log('depois de executar a callback')
 }
+
+sayMyName (
+() => {
+    console.log('estou em uma callback')
+}
+)

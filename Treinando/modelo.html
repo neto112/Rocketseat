@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <button type="button" onclick="power(3, 2)">Calcular quadrado</button>
+  </div>
+
+  <script>
+    var power = function (base, exp) {
+      var pow = 1;
+      for (var i = 0; i < exp; i++) {
+        pow = pow * base;
+      }
+
+      console.log(pow);
+        return pow;
+      };
+    </script>
+  </body>
+</html>

@@ -1,7 +1,8 @@
-// function hoistings
+// arrow function
 
-sayMyName()
+const futebol = (Flamengovaisercampeao) => {
+    console.log(Flamengovaisercampeao)
 
-function sayMyName() {
-    console.log('Neto')
 }
+
+futebol ('Flamengo é campeão Brasileirão 2020')

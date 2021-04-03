@@ -1,8 +1,7 @@
-/*
-    Type conversion (typecasting) vs Type coersion
+// Manipulando strings e números
 
-    * Alteração de um tipo de dado para outro tipo
-
-*/
-
-console.log(Number('9') + 5)
+// Transformar string em número e número em string
+let string = "123"
+console.log(Number(string))
+let number = 321
+console.log(String(number))

@@ -1,18 +1,10 @@
-// criar um aplicativo de frases motivacionais
+// function scope
+let subject = 'Golaço'
 
-// declaration - declaração da função
-// function statement
-function createPhrases () {
-console.log('Estudar é muito bom')
-console.log('Paciência e persistência')
-console.log('Revisão é mãe de aprendizado')
+function oi() {
+    subject = 'study'
+    return subject
 }
 
-// executar a função
-// rodar, chamar, invocar
-// execute, run, call, invoke
-createPhrases()
-
-
-console.log('fim do programa')
-
+console.log(oi(subject))
+console.log(subject)

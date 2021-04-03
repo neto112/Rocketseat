@@ -1,8 +1,6 @@
-/*
-    Type conversion (typecasting) vs Type coersion
+// Manipulando Strings e Números
 
-    * Alteração de um tipo de dado para outro tipo
 
-*/
-
-console.log(Number('9') + 5)
+// Transformar um número quebrado com 2 casas decimais e trocar ponto por vírgula
+let number = 345.33452345
+console.log(number.toFixed(3).replace(".", ","))

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .button-result {
+      background-color: gold;
+      color: green;
+      padding: 20px;
+      font-weight: bold;
+      width: 30 px;
+      height: 130 px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="Juan's App">
+	Diga o seu nome: <input id="name" /> <br />
+	</br>
+	Digite o seu peso em kg: <input id="weight" /> <br />
+	</br>
+	Digite a sua altura em cm: <input id="height" /> <br />
+	</br>
+	
+	<button type="button" class="button-result" onclick="calculateIMC()">
+		Calcular
+	</button>
+	<br /><br />
+
+	<div id="result"></div>
+	<br />
+	<div id="imcNumero"></div>
+
+  <script>
+    var calculateIMC = function () {
+      const name = document.getElementById("name").value;
+      const weight = document.getElementById("weight").value;
+      const height = document.getElementById("height").value;
+      const imc = weight / (height / 100 * height / 100);
+
+			document.getElementById("imcNumero").innerHTML = "Seu IMC é: " + imc;
+
+      if (imc < 18.5) {
+        document.getElementById("result").innerHTML =  name + ", você está muito magro!";
+      } else if (imc >= 18.5 && imc <= 25) {
+				// pra esse jeito tem que usar essas aspas de acento ` e não "
+				// isso se chama template string, é uma forma melhor do que concatenar na maioria das vezes
+        document.getElementById("result").innerHTML = `Puxa vida, ${name}! Você está muito gente boa!`
+      } else if (imc > 25 && imc <= 30) {
+        document.getElementById("result").innerHTML = "Sobrepeso, cuidado " + name;
+      } else {
+				document.getElementById("result").innerHTML = name + ", Perigo! Obesidade";
+			}
+    };
+  </script>
+</body>
+
+</html>

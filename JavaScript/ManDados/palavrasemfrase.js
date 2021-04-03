@@ -1,8 +1,7 @@
-/*
-    Type conversion (typecasting) vs Type coersion
+// Manipulando Strings
 
-    * Alteração de um tipo de dado para outro tipo
 
-*/
+// Verificar se o texto contém a palavra Amor
 
-console.log(Number('9') + 5)
+let phrase = "Amor!"
+console.log(phrase.includes("amor"))
