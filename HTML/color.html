@@ -1,23 +1,20 @@
 <!-- 
-    <button>
-    
-    - Representa um botão
-    - Usado para enviar formulários
-    - É estilizado pelo user agent
+    <input type="color" />
 
+    - Interface para selecionar cor
+    - Color picker
 
-    Atributos comuns
-    - type
-        - submit
-        - reset
-        - button
-    - autofocus
-    - disabled
-    - name
-    - value
-    - form
--->
+    # Atributos
+    - value: RGB
+    - Se inválido, o preto será exibido
+    - list
+    * o id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré definidos a fim
+            * Os valores do <datalist> que não forem compatíveis com o
 
-<form action="" id="meu-form"></form>
+            -->
 
-<button type="submit" form="meu-form">Enviar</button>
+            <datalist id="colorsdata">
+                <option>#0000ff</option>
+            </datalist>
+            <input type="color" list="colorsdata">
