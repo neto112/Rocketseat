@@ -10,13 +10,12 @@ se a família está com saldo positivo ou negativo seguido do valor do saldo.
 */
 
 let family = {
-    incomes: [2500],
-    expenses: [320.34, 1600, 2200]
+    incomes: [2500, 10], // rendimento
+    expenses: [320.34, 400, 350] // despesa
 }
 
 function sum(array) {
     let total = 0;
-
         for(let value of array) {
             total += value
         }

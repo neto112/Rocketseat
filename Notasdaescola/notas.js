@@ -16,7 +16,6 @@ if ( media >= 6 )
 } 
 else 
 {
-
     if (media <= 5) 
     {
         console.log ("Reprovado");

@@ -1,6 +1,6 @@
 // if...else
 
-let temperature = 36.9
+let temperature = 37.4
 let highTemperature = temperature >= 37.5
 let mediumTemperature = temperature < 37.5 && temperature >= 37
 

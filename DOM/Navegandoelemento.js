@@ -14,8 +14,8 @@
 // lastChild lastElementChild
 // console.log(el.lastElementChild)
 
-const el = document.querySelector('body script')
+// const el = document.querySelector('body script')
 // nextSibling nextElementSibling
 
 // previousSibling previousElementsSibling
-console.log(el.previousSibling)
+// console.log(el.previousSibling)

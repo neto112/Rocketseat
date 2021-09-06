@@ -6,7 +6,8 @@
 
 /*
     FALSY
-    Quando um valor é considerado false em contextos onde um booleano é obrigatório (condicionais e loops)
+    Quando um valor é considerado false em contextos onde um booleano 
+    é obrigatório (condicionais e loops)
 
     false
     0

@@ -22,7 +22,7 @@ const booksByCategory = [
                 author: "George S. Clason",
             },
             {
-                title: "Pai rico, pai pobre"
+                title: "Pai rico, pai pobre",
                 author: "Robert T. Kiyosaki e Sharon L. Lechter",
             },
         ],
@@ -32,15 +32,15 @@ const booksByCategory = [
         books: [
             {
                 title: "Você é Insubstituível",
-                author: "Augusto Curry"
-            }
+                author: "Augusto Curry",
+            },
             {
                 title: "Ansiedade - Como enfrentar o mal do século",
-                author: "Augusto Curry"
-            }
+                author: "Augusto Curry",
+            },
             {
                 title: "Os 7 hábitos das pessoas altamente eficazes",
-                author: "Stephen R. Covey"
+                author: "Stephen R. Covey",
             },
         ],
     },
@@ -50,7 +50,7 @@ const totalCategories = booksByCategory.length
 
 console.log(totalCategories);
 for(let category of booksByCategory) {
-    console.log('Total de livros da categoria: ', category.category)
+    console.log('Total de livros da categoria:', category.category)
     console.log(category.books.length)
 }
 
@@ -68,8 +68,6 @@ function countAuthors() {
     console.log("Total de autores: ", authors.length)
 }
 
-countAuthors();
-
 function books0fAuthor(author) {
     let books = [];
 
@@ -81,6 +79,6 @@ function books0fAuthor(author) {
         }
     }
 
-    console.log(`Livros do autor ${author}: ${books.join(", ")}`)
+    console.log(`Livros do autor ${author}: ${books.join(",")}`)
 }
 books0fAuthor('George S. Clason')

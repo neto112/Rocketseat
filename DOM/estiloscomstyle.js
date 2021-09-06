@@ -1,5 +1,5 @@
 // Alterando estilos
 const element = document.querySelector('body')
 
-element.style.backgroundColor = "#f9f3D2"
+element.style.backgroundColor = "#37f733"
 console.log(element.style.backgroundColor)

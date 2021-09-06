@@ -1,7 +1,7 @@
 // arrow function
 
-const futebol = (Flamengovaisercampeao) => {
-    console.log(Flamengovaisercampeao)
+const futebol = (Flamengo) => {
+    console.log(Flamengo)
 
 }
 

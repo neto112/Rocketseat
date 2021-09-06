@@ -1,7 +1,7 @@
 /* Expressões e Operadores
 
-- Expressions
-- Operators
+Expressions
+Operators
 Binary
 Unary
 Ternary

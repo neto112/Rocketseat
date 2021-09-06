@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+var array = [1, 2, 3, 4, 5];
+
+// for (var i = 0; i < array.length; i++) {
+//   array[i] *=2;
+//   console.log(array[i])
+// }
+
+for (var i = 0; i < array.length; i++) {
+  if (array.indexOf(array[i]) === i) {
+    models.push(array[i]);
+    console.log(array[i])
+  }
+}
+
+// var i=0 -> começa à esquerda do array;
+// i < array.length -> termina à direita;
+// i++ -> incremento de 1 em 1;
+// array.indexOf(array[i] ) === i -> se o valor é de 1° instância no array
+// vai concidir com o índice (isto é, se está verficando uma duplicata)
+// models.push(...) -> models deve ser uma lista, mas quais dados ali constam?
+// quais sao tipos de dados? é preciso procurar um arquivo "models"
+// enxaguar, repetir.
+
+</script> 
+</body>
+</html>
+

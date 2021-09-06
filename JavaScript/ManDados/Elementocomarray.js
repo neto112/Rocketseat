@@ -5,4 +5,4 @@ console.log([
     "a",
     {type: "array"},
     function() { return "alo"},
-][1].type)
+][1])

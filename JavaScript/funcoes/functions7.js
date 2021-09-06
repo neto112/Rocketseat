@@ -14,5 +14,5 @@ console.log('Revisão é mãe de aprendizado')
 createPhrases()
 
 
-console.log('fim do programa')
+console.log('Fim do programa')
 

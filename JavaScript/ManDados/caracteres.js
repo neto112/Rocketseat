@@ -2,7 +2,7 @@
 
 
 // Contar quantos caracteres tem uma palavra e quantos digitos tem um número
-let caracteres = "gol"
+let caracteres = "gole"
 console.log(caracteres.length)
-let number = 1234
+let number = 123456.7
 console.log(String(number).length)
